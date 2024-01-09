@@ -1,11 +1,11 @@
 import './App.css';
-import { NavBar } from './components/NavBar';
-import { Banner } from './components/Banner';
-import { Skills } from './components/Skills';
-import { Certificates } from './components/Certificates';
-import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import { NavBar } from './components/NavBar.js';
+import { Banner } from './components/Banner.js';
+import  {Skills}  from './components/Skills.js';
+import { Certificates } from './components/Certificates.js';
+import { Projects } from './components/Projects.js';
+import { Contact } from './components/Contact.js';
+import { Footer } from './components/Footer.js';
 function App() {
   return (
     <div className="App">

@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import '../tailwind.css';
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-import CloseIcon from '@mui/icons-material/Close';
-import { Certificates } from './Certificates';
+import CloseIcon from '@mui/icons-material/Close.js';
+import { Certificates } from './Certificates.js';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');

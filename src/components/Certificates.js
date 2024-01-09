@@ -4,7 +4,7 @@ import certiImg1 from '../assets/img/certi-img1.png'
 import certiImg2 from '../assets/img/certi-img2.png'
 import certiImg3 from '../assets/img/certi-img3.png'
 import certiImg4 from '../assets/img/certi-img4.png'
-import { CertificatesCard } from "./CertificatesCard";
+import { CertificatesCard } from "./CertificatesCard.js";
 export const Certificates=()=>{
 
     const certificates=[

@@ -358,9 +358,17 @@ width:80%;
   flex-direction: row;
 }
 .flexx{
-  
+  justify-content: center;
+  align-items: center;
   display:flex;
   flex-direction: row;
+}
+.icon-image{
+margin-left: 4px;
+cursor: pointer;
+}
+.cus-img{
+  width: 40%;
 }
 .proj-imgbx::before {
   content: "";
@@ -439,7 +447,6 @@ width:80%;
   transition: 0.3s ease-in-out;
   margin-right: 20px;
 }
-
 .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -454,8 +461,6 @@ width:80%;
   transition: 0.3s ease-in-out;
   margin-right: 20px;
 }
-
-
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
@@ -616,6 +621,9 @@ width:80%;
   }
 }
 @media (max-width: 450px){
+  .cus-img{
+    width: 100%;
+  }
   .menu-bars {
     display: block;
     cursor: pointer;
