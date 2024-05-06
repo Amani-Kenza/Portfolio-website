@@ -12,42 +12,48 @@ import colorSharp from "../assets/img/color-sharp.png"
 export const Projects = () => {
   const projects = [
     {
-      title: "Afrihacks MedAI Application",
-      description: "Development",
+      title: "MedAI Application",
+      technologies: "Reactjs - TailwindCSS - Nodejs - MongoDB- AI",
+      description:'A medical application, which helps patients discuss their symptoms with an AI chatbot and search for nearby hospitals.',
       imgUrl: projImg5,
       icon:icon,
       iconLink:"https://medai-afrihacks2023.vercel.app/auth"
     },
     {
       title: "Healthy_cakes shop",
-      description: "Design & Development",
+      technologies: "Reactjs - TailwindCSS - Nodejs - MongoDB",
+      description:'A shop application for selling healthy cakes and we can find different recipes for cakes, muffins,....',
       imgUrl: projImg2,
       icon:icon,
       iconLink:"https://github.com/Amani-Kenza/food-shop",
     },
     {
       title: "Track system website",
-      description: "Design & Development",
+      technologies: "Bootstrap - PHP - MySQL",
+      description:'An application developed during my internship at ENIEM to interact with the company"s tracking system.',
       imgUrl: projImg4,
       icon:icon,
     },
     {
       title: "Quiz Application",
-      description: "Design & Development",
+      technologies: "Bootstrap - jQuery",
+      description:'A quiz application with multiples questions to test your knowledge in HTML, CSS, and JavaScript.',
       imgUrl: projImg3,
       icon:icon,
       iconLink:"https://github.com/Amani-Kenza/quiz_app"
     },
     {
       title: "Online CV",
-      description: "Design & Development",
+      technologies: "Bootstrap",
+      description:'An online CV developed using Bootstrap where you can input your informations.',
       imgUrl: projImg1,
       icon:icon,
       iconLink:"https://github.com/Amani-Kenza/Online_CV",
     },
     {
       title: "Portfolio",
-      description: "Design & Development",
+      technologies: "Reactjs - TailwindCSS",
+      description:'An example of a portfolio websiste, where you can show your work.',
       imgUrl: projImg6,
       icon:icon,
       iconLink:"https://github.com/Amani-Kenza/Blog/tree/main"

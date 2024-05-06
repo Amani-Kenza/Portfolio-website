@@ -344,6 +344,8 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   margin-bottom: 24px;
   margin-left: 40px;
   width:80%;
+  border: 1px solid rgb(29, 4, 47);
+  box-shadow: 0px 4px 2px rgb(22, 2, 34);
 }
 .proj-imgbxx{
 position: relative;
@@ -363,46 +365,52 @@ width:80%;
   display:flex;
   flex-direction: row;
 }
-.icon-image{
-margin-left: 4px;
-cursor: pointer;
-}
 .cus-img{
   width: 40%;
 }
-.proj-imgbx::before {
+/*.proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
   transition: 0.4s ease-in-out;
-}
-.proj-imgbx:hover::before {
+}*/
+/*.proj-imgbx:hover::before {
   height: 100%;
-}
+}*/
 .proj-txtx {
-  position: absolute;
+  /*position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
+  transition: 0.5s ease-in-out;*/
+  opacity: 1;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
-.proj-imgbx:hover .proj-txtx {
+/*.proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
-}
+}*/
 .proj-txtx h4 {
   font-size: 30px;
+  padding: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+h6{
+  font-size: 30px;
+  padding: 12px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 .proj-txtx span {
   font-style: italic;
+  padding: 12px;
+  text-align: left;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
@@ -417,6 +425,15 @@ cursor: pointer;
 }
 .custom-image{
   height: 250px;
+}
+.icon-image{
+  padding: 4px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 /************Contact************/

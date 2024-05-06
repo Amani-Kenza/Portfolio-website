@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import certiImg1 from '../assets/img/certi-img1.png'
-import certiImg2 from '../assets/img/certi-img2.png'
+import certiImg5 from '../assets/img/certi-img5.jpg'
 import certiImg3 from '../assets/img/certi-img3.png'
-import certiImg4 from '../assets/img/certi-img4.png'
+import certiImg6 from '../assets/img/certi-img6.jpg'
 import { CertificatesCard } from "./CertificatesCard.js";
 export const Certificates=()=>{
 
@@ -16,7 +16,7 @@ export const Certificates=()=>{
         {
           title: "React",
           description: "SATR",
-          imgUrl: certiImg2,
+          imgUrl: certiImg5,
         },
         {
           title: "Data science IBM",
@@ -26,7 +26,7 @@ export const Certificates=()=>{
         {
             title: "Regression and classification",
             description: "Coursera",
-            imgUrl: certiImg4,
+            imgUrl: certiImg6,
           },
       ];
       return(
