@@ -25,7 +25,7 @@ export const Projects = () => {
       description:'A shop application for selling healthy cakes and we can find different recipes for cakes, muffins,....',
       imgUrl: projImg2,
       icon:icon,
-      iconLink:"https://github.com/Amani-Kenza/food-shop",
+      iconLink:"https://healthyfood-shop.netlify.app",
     },
     {
       title: "Track system website",
